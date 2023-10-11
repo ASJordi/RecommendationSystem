@@ -1,7 +1,10 @@
 package dev.asjordi;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Recommendation System");
+        FirstRatings firstRatings = new FirstRatings();
+        firstRatings.testLoadRaters();
     }
+    
 }
