@@ -1,7 +1,7 @@
 package dev.asjordi;
 
 /**
- * Class to process the movie and ratings data
+ * Class to process data analysis regarding movies, raters and ratings
  * @author ASJordi
  * @version 0.0.1
  */
