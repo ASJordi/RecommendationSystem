@@ -58,7 +58,7 @@ public class FirstRatings {
             double rating = Double.parseDouble(r.get("rating"));
 
             if (!listID.contains(raterId)){
-                Rater rater = new Rater(raterId);
+                Rater rater = new EfficientRater(raterId);
                 rater.addRating(movieId, rating);
                 raters.add(rater);
             } else{

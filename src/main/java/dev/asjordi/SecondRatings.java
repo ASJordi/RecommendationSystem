@@ -126,8 +126,8 @@ public class SecondRatings {
     }
 
     /**
-     * Formats an ID by padding it with leading zeros to achieve the desired length.
-     * @param id The original ID to be formatted
+     * Formats an movie id by padding it with leading zeros to achieve the desired length.
+     * @param id The original movie id to be formatted
      * @param desiredLength The desired length of the formatted ID
      * @return The formatted ID with leading zeros, if necessary
      */
